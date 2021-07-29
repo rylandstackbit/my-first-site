@@ -13,7 +13,7 @@ export default function SectionHero(props) {
     const title = _.get(section, 'title');
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
-    const eyebrow_test = _.get(section, 'eyebrow_test');
+    const eyebrowTest = _.get(section, 'eyebrowTest');
 
     return (
         <section id={sectionId} className="block hero-block bg-accent outer">
