@@ -13,7 +13,6 @@ export default function SectionHero(props) {
     const title = _.get(section, 'title');
     const content = _.get(section, 'content');
     const actions = _.get(section, 'actions');
-    const eyebrowTest = _.get(section, 'eyebrowTest');
 
     return (
         <section id={sectionId} className="block hero-block bg-accent outer">
@@ -25,7 +24,6 @@ export default function SectionHero(props) {
                         </div>
                     )}
                     <div className="cell block-content">
-                        <small>{eyebrowTest}</small>
                         {title && <h2 className="block-title underline">{title}</h2>}
                         {content && (
                             <div className="block-copy">
